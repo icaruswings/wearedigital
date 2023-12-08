@@ -1,0 +1,11 @@
+query checkoutProfiles {
+  checkoutProfiles(first: 10) {
+    edges {
+      node {
+        id
+        isPublished
+        name
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+mutation uppcaseHeadings($checkoutBrandingInput: CheckoutBrandingInput!, $checkoutProfileId: ID!) {
+  checkoutBrandingUpsert(
+    checkoutBrandingInput: $checkoutBrandingInput
+    checkoutProfileId: $checkoutProfileId
+  ) {
+    checkoutBranding {
+      customizations {
+        headingLevel1 {
+          typography {
+            letterCase
+          }
+        }
+        headingLevel2 {
+          typography {
+            letterCase
+          }
+        }
+        headingLevel3 {
+          typography {
+            letterCase
+          }
+        }
+      }
+    }
+  }
+}

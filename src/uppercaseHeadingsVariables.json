@@ -1,0 +1,22 @@
+{
+    "checkoutProfileId": "gid://shopify/CheckoutProfile/CHECKOUT_PROFILE_ID",
+    "checkoutBrandingInput": {
+      "customizations": {
+        "headingLevel1": {
+          "typography": {
+            "letterCase": "UPPER"
+          }
+        },
+        "headingLevel2": {
+          "typography": {
+            "letterCase": "UPPER"
+          }
+        },
+        "headingLevel3": {
+          "typography": {
+            "letterCase": "UPPER"
+          }
+        }
+      }
+    }
+  }
